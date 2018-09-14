@@ -23,7 +23,7 @@ h1 {
 h2 {
   font-size: 1.4em;
   font-family: 'Barlow', sans-serif;
-  color: rgba(31, 22, 114, 1);
+  color: rgb(14, 10, 49);
 }
 
 p {
@@ -169,12 +169,12 @@ textarea {
 }
 
 .quote {
-  font-size: 1.8em;
-  font-style: italic;
+  font-size: 2em;
   text-align: center;
   margin: 0px;
   padding: 0px 40px;
   font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
   color: rgb(231, 217, 177);
 }
 
