@@ -15,15 +15,18 @@ a {
 h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.4em;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 0px 0px;
   color: rgb(14, 10, 49);
   font-weight: normal;
+  padding-bottom: 32px;
 }
 
 h2 {
   font-size: 1.4em;
   font-family: 'Barlow', sans-serif;
   color: rgb(14, 10, 49);
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 p {
@@ -78,6 +81,7 @@ textarea {
 .menu {
   margin: 0px auto 0px auto;
   max-width: 740px;
+  padding: 0px;
 }
 
 .menu-ul {
@@ -95,7 +99,7 @@ textarea {
 .menu-item {
   margin: 0px auto 0px auto;
   display: inline-block;
-  padding: 26px;
+  padding: 25px;
   color: white;
   font-family: 'Barlow', sans-serif;
   transition: all 0.3s;
@@ -105,6 +109,10 @@ textarea {
   background: #8d1e43;
   transition: all 0.3s;
   color: #E7D9B1;
+}
+
+.menu-item:first-child { 
+  margin-left: 2px;
 }
 
 .menu-item-active {
@@ -117,7 +125,8 @@ textarea {
   font-weight: bold;
   font-size: 1.4em;
   font-family: 'Times New Roman', Times, serif;
-  padding: 24px 22px 24px 22px;
+  padding: 22px 22px 21px 22px;
+  background: #6d102f;
 }
 
 .image-div {
@@ -192,6 +201,11 @@ p.quote:before, p.quote:after {
     height: 350px;
   }
 
+  .menu {
+    padding-top: 6px;
+    padding-bottom: 4px;
+  }
+
   .menu-ul {
     margin: 0px;
     padding: 10px;
@@ -217,7 +231,7 @@ p.quote:before, p.quote:after {
 
   .content {
     margin: -40px auto 0px auto;
-    padding: 30px 30px;
+    padding: 60px 30px;
     border-radius: 0px;
   }
 
