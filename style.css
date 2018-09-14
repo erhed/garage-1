@@ -195,6 +195,10 @@ p.quote:before, p.quote:after {
     padding: 12px 8px;
   }
 
+  .menu-info {
+    display: none;
+  }
+
   .image-div {
     height: 200px;
   }
