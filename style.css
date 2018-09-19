@@ -87,7 +87,6 @@ textarea {
 .menu-ul {
   margin: 0px;
   padding: 0px;
-  padding-inline-start: 0px;
   text-align: center;
 }
 
@@ -125,7 +124,7 @@ textarea {
   font-weight: bold;
   font-size: 1.4em;
   font-family: 'Times New Roman', Times, serif;
-  padding: 22px 22px 21px 22px;
+  padding: 21px 22px 23px 22px;
   background: #6d102f;
 }
 
